@@ -16,7 +16,7 @@ public class Shoot : MonoBehaviour
                 {
                     Instantiate(bullet, shootPoint.position, shootPoint.rotation).GetComponent<Rigidbody>().AddForce(shootPoint.forward * shootForce);
                 }
-        
+        //comentario de prueba
         
     }
 }
